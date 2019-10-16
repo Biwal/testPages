@@ -1,0 +1,86 @@
+#stat {
+      background: -webkit-linear-gradient(#ff9a9a, #e63a3a);
+      background: -moz-linear-gradient(#ff9a9a, #e63a3a);
+      background: linear-gradient(#ff9a9a, #e63a3a);
+      border-radius:5%;
+      width: 250px;
+      height: 300px;
+      margin-right: 10px;
+}
+
+img{
+      width: 100px;
+      height: 100px;
+}
+.conta {
+      margin-left: 2rem;
+      margin-right: 2rem;
+      margin-top: 7rem;
+}
+
+.fa-indent {
+      color: green;
+}
+
+.fa-outdent {
+      color: red;
+}
+h3{
+      text-align: center;
+}
+body {
+      background: url('./MODIS-NETWORK.png') no-repeat, white;
+      background-size: cover;
+}
+.addBtn{
+      background-color: #c62828!important;
+      color: white;
+      border: none;
+      border-radius: 2px;
+      display: inline-block;
+      height: 36px;
+      line-height: 36px;
+      padding: 0 2rem;
+      text-transform: uppercase;
+      margin-right: 5px;
+    }
+    .expBtn{
+      background-color: #00796b!important;
+      color: white;
+      border: none;
+      border-radius: 2px;
+      display: inline-block;
+      height: 36px;
+      line-height: 36px;
+      padding: 0 2rem;
+      text-transform: uppercase;
+    }
+
+@media screen and (min-width: 788px) {
+      .conta {
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: space-around;
+            margin-top: 4rem;
+      }
+   section{
+         flex:1
+   }
+    
+}
+
+    .leftStatsContent{
+      margin-left: 20px;
+      margin-top: -1%;
+    }
+    
+    .LeftStatsTitle{
+      height: 25px;
+      padding-bottom: 4px;
+    }
+    .LeftStatsTitle .title {
+      width: 58%;
+      font-weight: 700;
+      color: rgba(0,0,0,.6);
+    }
+    

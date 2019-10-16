@@ -1,0 +1,57 @@
+#photoLogin {
+      display: none;
+}
+section {
+      margin-left: 4rem;
+      margin-right: 4rem;
+      margin-top: 5rem;
+      vertical-align: bottom;
+}
+h1,
+p {
+      text-align: center;
+}
+body {
+      background: url('./MODIS-NETWORK.png') no-repeat, white;
+      background-size: cover;
+}
+button {
+      padding: 12px 10px;
+      border: 0;
+      background: linear-gradient(to right, #36334e 15%, #296c99 100%);
+      border-radius: 3px;
+      margin-top: 10px;
+      color: #fff;
+      letter-spacing: 1px;
+      font-family: 'Rubik', sans-serif;
+}
+@media screen and (min-width: 750px) and (min-height: 475px) {
+      /* .cropImg {
+            width: 70%;
+            max-height: 650px;
+            overflow: hidden;
+      } */
+      #photoLogin {
+            flex: 1;
+            display: block;
+            max-width:70%;
+            /* width: 65%;
+      max-height: 700px; */
+      }
+      /* .image {
+            background: url('./img1.jpg') no-repeat;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 100%;
+      } */
+      section {
+            width: 30%;
+      }
+
+      body {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+      }
+}

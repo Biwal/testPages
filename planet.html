@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+      <head>
+            <meta charset="utf-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+            <link
+                  rel="stylesheet"
+                  href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+                  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+                  crossorigin="anonymous"
+            />
+            <link href="fontawesome/css/all.css" rel="stylesheet" />
+            <!--load all styles -->
+            <link rel="stylesheet" href="planet.css" />
+      </head>
+      <body>
+            <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+                  <h2 class="navbar-brand" href="#">Navbar</h2>
+                  <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#navbarNavAltMarkup"
+                        aria-controls="navbarNavAltMarkup"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                  >
+                        <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                              <a class="nav-item nav-link" href="#">Matériels </a>
+                              <a class="nav-item nav-link" href="#">Templates</a>
+                              <a class="nav-item nav-link" href="http://localhost/html/index.html">Déconnexion</a>
+                        </div>
+                  </div>
+            </nav>
+            <div class="conta">
+                  <aside id="stat">
+                        <h3>Statistiques</h3>
+                        <img src="magnifying-glass.png" alt="" />
+                        <div class="leftStatsContent">
+                              <div class="LeftStatsTitle row">
+                                    <p class="title grey-text text-darken-2">En maintenance :</p>
+                                    <p class="content grey-text text-darken-1">0</p>
+                              </div>
+                              <div class="LeftStatsTitle row">
+                                    <p class="title grey-text text-darken-2">A maintenir :</p>
+                                    <p class="content grey-text text-darken-1">1</p>
+                              </div>
+                              <div class="LeftStatsTitle row">
+                                    <p class="title grey-text text-darken-2">Pas en stock :</p>
+                                    <p class="content grey-text text-darken-1">2</p>
+                              </div>
+                              <div class="LeftStatsTitle row">
+                                    <p class="title grey-text text-darken-2">En retard :</p>
+                                    <p class="content grey-text text-darken-1">1</p>
+                              </div>
+                              <div class="LeftStatsTitle row">
+                                    <p class="title grey-text text-darken-2">Disponibles :</p>
+                                    <p class="content grey-text text-darken-1">3</p>
+                              </div>
+                        </div>
+                  </aside>
+
+                  <section>
+                        <aside id="buttonsBar">
+                              <button class="expBtn">Exporter</button>
+                              <button class="addBtn">Ajouter matériel</button>
+                        </aside>
+                        <h2>Liste des matériels</h2>
+                        <table class="table table-striped  table-hover table-responsive">
+                              <thead class="thead-dark">
+                                    <tr>
+                                          <th scope="col">#</th>
+                                          <th scope="col">Référence interne</th>
+                                          <th scope="col">Modèle</th>
+                                          <th scope="col">Stock</th>
+                                          <th scope="col">Fabriquant</th>
+                                          <th scope="col">Détails</th>
+                                          <th scope="col">Exporter</th>
+                                    </tr>
+                              </thead>
+                              <tbody>
+                                    <tr>
+                                          <td scope="row">1</td>
+                                          <td>APN02</td>
+                                          <td>TG-2</td>
+                                          <td><i class="fas fa-indent"></i></td>
+                                          <td>Olympus</td>
+                                          <td><i class="fas fa-eye"></i></td>
+                                          <td><input class="form-check-input" type="checkbox"></td>
+                                    </tr>
+                                    <tr>
+                                          <td scope="row">2</td>
+                                          <td>Sonde Seabird 2</td>
+                                          <td>SBE 19+ V2</td>
+                                          <td><i class="fas fa-outdent"></i></td>
+                                          <td>SBE</td>
+                                          <td><i class="fas fa-eye"></i></td>
+                                          <td><input class="form-check-input" type="checkbox"></td>
+                                    </tr>
+                                    <tr>
+                                          <td scope="row">3</td>
+                                          <td>Niskin 2</td>
+                                          <td>15854</td>
+                                          <td><i class="fas fa-outdent"></i></td>
+                                          <td>KC Denmark</td>
+                                          <td><i class="fas fa-eye"></i></td>
+                                          <td><input class="form-check-input" type="checkbox"></td>
+                                    </tr>
+                                    <tr>
+                                          <td scope="row">4</td>
+                                          <td>Niskin 4</td>
+                                          <td>15854</td>
+                                          <td><i class="fas fa-indent"></i></td>
+                                          <td>KC Denmark</td>
+                                          <td><i class="fas fa-eye"></i></td>
+                                          <td><input class="form-check-input" type="checkbox"></td>
+                                    </tr>
+                                    <tr>
+                                          <td scope="row">5</td>
+                                          <td>Sonde pH2</td>
+                                          <td>pH 340i</td>
+                                          <td><i class="fas fa-indent"></i></td>
+                                          <td>WTW</td>
+                                          <td><i class="fas fa-eye"></i></td>
+                                          <td><input class="form-check-input" type="checkbox"></td>
+                                    </tr>
+                                    <tr>
+                                          <td scope="row">6</td>
+                                          <td>Tube carotte 1</td>
+                                          <td></td>
+                                          <td><i class="fas fa-outdent"></i></td>
+                                          <td>Planet Ocean</td>
+                                          <td><i class="fas fa-eye"></i></td>
+                                          <td><input class="form-check-input" type="checkbox"></td>
+                                    </tr>
+                              </tbody>
+                        </table>
+                  </section>
+            </div>
+
+            <script
+                  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+                  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+                  crossorigin="anonymous"
+            ></script>
+            <script
+                  src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+                  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+                  crossorigin="anonymous"
+            ></script>
+            <script
+                  src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+                  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+                  crossorigin="anonymous"
+            ></script>
+      </body>
+</html>
